@@ -51,7 +51,6 @@ function ShoppingListCheckOffService() {
   var alreadyBoughtItems = [];
 
   service.buyItem = function (itemIndex) {
-    console.log(toBuyItems[itemIndex]);
     alreadyBoughtItems.push(toBuyItems[itemIndex]);
     toBuyItems.splice(itemIndex, 1);
   };
