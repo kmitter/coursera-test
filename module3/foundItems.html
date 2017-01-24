@@ -1,0 +1,17 @@
+<table class="table table-striped">
+  <tr class="" ng-if="foundItemsController.error !== ''">
+    <td class="danger">{{foundItemsController.error}}</td>
+  </tr>
+  <tr ng-if="foundItemsController.foundItems.length !== 0">
+    <th>Name</th>
+    <th>Short&nbsp;Name</th>
+    <th>Description</th>
+    <th></th>
+  </tr>
+  <tr ng-repeat="item in foundItemsController.foundItems">
+    <td>{{ item.name }}</td>
+    <td>{{ item.short_name }}</td>
+    <td>{{ item.description }}</td>
+    <td><button class="btn btn-warning" ng-click="foundItemsController.onRemove({index: $index});">Don't want this one!</button></td>
+  </tr>
+</table>
