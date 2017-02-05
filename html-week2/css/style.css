@@ -9,31 +9,31 @@
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
-div.content {
+.content {
   padding-left: 15px;
   padding-right: 15px;
   overflow: auto;
 }
 
-h1 {
+.header {
   text-align: center;
   margin: 30px;
 }
 
-div.section {
+.section {
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 30px;
 }
 
-p.sectionContent {
+.sectionContent {
   border: 1px solid black;
   padding: 15px;
   background-color: #D0D0D0;
   text-align: justify;
 }
 
-section.title {
+.title {
   border: 1px solid black;
   text-align: center;
   margin-left: 5px;
@@ -41,16 +41,16 @@ section.title {
   float: right;
 }
 
-section.chicken {
+div.chicken {
   background-color: #FFD0D0;
 }
 
-section.beef {
+div.beef {
   background-color: #C00A0A;
   color: white;
 }
 
-section.sushi {
+div.sushi {
   background-color: #D0C00A;
 }
 
@@ -58,12 +58,12 @@ section.sushi {
 @media (min-width: 992px) {
   body { font-size: x-large; }
 
-  div.section {
+  .section {
     width: 33.3%;
     float: left;
   }
 
-  section.title {
+  .title {
     width: 120px;
   }
 }
@@ -73,17 +73,17 @@ section.sushi {
 @media (min-width: 768px) and (max-width: 991px) {
   body { font-size: large; }
 
-  div.section {
+  .section {
     width: 50%;
     float: left;
   }
 
-  div.sushi {
+  .bottom {
     width: 100%;
     clear: both;
   }
 
-  section.title {
+  .title {
     width: 100px;
   }
 }
@@ -91,7 +91,7 @@ section.sushi {
 /********** Mobile version **********/
 @media (max-width: 767px) {
   body { font-size: medium; }
-  section.title {
+  .title {
     width: 80px;
   }
 }
