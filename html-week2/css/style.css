@@ -28,7 +28,7 @@
 
 .sectionContent {
   border: 1px solid black;
-  padding: 15px;
+  padding: 35px 15px 15px 15px;
   background-color: #D0D0D0;
   text-align: justify;
 }
@@ -56,8 +56,6 @@ div.sushi {
 
 /********** Desktop version **********/
 @media (min-width: 992px) {
-  body { font-size: x-large; }
-
   .section {
     width: 33.3%;
     float: left;
@@ -66,18 +64,11 @@ div.sushi {
   .title {
     width: 120px;
   }
-
-  .sectionContent {
-    padding-top: 50px;
-  }
-
 }
 
 
 /********** Tablet version **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  body { font-size: large; }
-
   .section {
     width: 50%;
     float: left;
@@ -91,21 +82,11 @@ div.sushi {
   .title {
     width: 100px;
   }
-
-  .sectionContent {
-    padding-top: 40px;
-  }
-
 }
 
 /********** Mobile version **********/
 @media (max-width: 767px) {
-  body { font-size: medium; }
   .title {
     width: 80px;
-  }
-
-  .sectionContent {
-    padding-top: 30px;
   }
 }
