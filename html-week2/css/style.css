@@ -66,6 +66,11 @@ div.sushi {
   .title {
     width: 120px;
   }
+
+  .sectionContent {
+    padding-top: 50px;
+  }
+
 }
 
 
@@ -86,6 +91,11 @@ div.sushi {
   .title {
     width: 100px;
   }
+
+  .sectionContent {
+    padding-top: 40px;
+  }
+
 }
 
 /********** Mobile version **********/
@@ -93,5 +103,9 @@ div.sushi {
   body { font-size: medium; }
   .title {
     width: 80px;
+  }
+
+  .sectionContent {
+    padding-top: 30px;
   }
 }
