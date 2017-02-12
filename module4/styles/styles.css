@@ -7,7 +7,7 @@
 
 /********** Mobile version **********/
 @media (max-width: 767px) {
-  * { font-size: small; }
-  h4,h5 {font-size: small;}
+  * { font-size: xx-small; }
+  h4,h5 {font-size: xx-small;}
   h1 {font-size: x-large;}
 }
