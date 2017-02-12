@@ -1,0 +1,13 @@
+
+/********** Base styles **********/
+* {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+
+/********** Mobile version **********/
+@media (max-width: 767px) {
+  * { font-size: small; }
+  h4,h5 {font-size: small;}
+  h1 {font-size: x-large;}
+}
