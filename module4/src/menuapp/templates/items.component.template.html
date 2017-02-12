@@ -1,5 +1,8 @@
 <div class="list-group">
   <a ui-sref="#" class="list-group-item list-group-item-action" ng-repeat="item in $ctrl.items">
     <h4 class="list-group-item-heading"><span class="label label-warning">{{ item.short_name }}</span> {{ item.name }}</h4>
-    <span ng-if="item.description">{{ item.description }}</span></a>
+    <span ng-if="item.description">{{ item.description }}</span>
+	<span class="label label-success" ng-if="item.price_small">small: ${{ item.price_small }}</span>
+	<span class="label label-success" ng-if="item.price_large">large: ${{ item.price_large }}</span>
+	</a>
 </div>
