@@ -4,7 +4,7 @@
 
     <div class="text-center" ng-if="!regInfoCtrl.user">Not Signed Up Yet. <a ui-sref="public.signup">Sign up Now!</a></div>
 
-    <div ng-if="regInfoCtrl.user">
+    <div class="text-center" ng-if="regInfoCtrl.user">
      <div class="text-center">
        Firstname: {{ regInfoCtrl.user.firstname}} <br>
        Lastname: {{ regInfoCtrl.user.lastname}} <br>
